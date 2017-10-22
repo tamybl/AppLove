@@ -82,7 +82,8 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 
 main {
@@ -125,7 +126,7 @@ header {
 }
 
 section {
-  padding: 70px;
+  padding: 10px;
   text-align: center;
   display: block;
   float: left;
@@ -181,6 +182,7 @@ section#services img {
 section#work {
   width: 100%;
   min-height: 2310px;
+  background-color: #fff;
 }
 
 section#work img {
@@ -188,7 +190,10 @@ section#work img {
 }
 
 section#work h2, section#services h2 {
+  margin-top: 60px;
+  margin-bottom: 15px;
   font-size: 2.2em;
+  font-weight: 900;
 }
 
 footer {
