@@ -19,6 +19,7 @@ body {
   line-height: 1.71429;
   /*background-color: #373b47; */
   background-image: url(../page.png);
+  position: relative;
 }
 
 img {
@@ -79,21 +80,23 @@ h1 {
   font-size: 3.4em;
 }
 
-h2::first {
+h2 {
   font-size: 1.5em;
   margin-bottom: 40px;
 }
 
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 40px;
+main {
+  width: 100%;
+  position: absolute;
+  top: 98px;
+  z-index: -1;
 }
 
 header {
   width: 100%;
   height: auto;
   background-color: #fff;
-  position: relative;
+  position: fixed;
   float: left;
 }
 
@@ -118,22 +121,21 @@ header {
   display: inline-block;
   margin: 35px;
   padding-left: 140px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 section {
-  border: 1px solid #9F2626;
   padding: 70px;
   text-align: center;
   display: block;
   float: left;
+
 }
 
 .green-btn {
   font-size: 1em;
   background-color: #2ecc71;
   padding: 15px 20px;
-  margin-top: 40px;
 }
 
 a.green-btn  {
@@ -157,7 +159,12 @@ section#intro {
   height: 536px;
   background-image: url(../assets/images/bg-home.jpg);
   background-size: 100%;
+  opacity: 0.5;
   color: #fff;
+}
+
+section#intro p {
+  margin-bottom: 90px;
 }
 
 section#services {
@@ -179,6 +186,10 @@ section#work {
 
 section#work img {
   width: 80%;
+}
+
+section#work h2, section#services h2 {
+  font-size: 2.2em;
 }
 
 footer {
