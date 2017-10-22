@@ -17,7 +17,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.71429;
-  /*background-color: #373b47; */
+  background-color: #373b47;
   background-image: url(../page.png);
   position: relative;
 }
@@ -159,7 +159,6 @@ section#intro {
   height: 536px;
   background-image: url(../assets/images/bg-home.jpg);
   background-size: 100%;
-  opacity: 0.5;
   color: #fff;
 }
 
